@@ -1,0 +1,35 @@
+Question 1 :-> Which Algorithm I used in this solution ?
+Answer 1   :-> The Algorithm used in this solution is known as Dynamic Programing.
+               it is a bottom-up approach where i calculate the minimum number of planes
+               required to reach each airport by iterating over all possible paths from
+               each airport to the final airport. We use a one-dimensional array to store
+               the minimum number of planes required for reaching each airport, which is 
+               updated as we iterate over the array.
+
+Question 2 :-> What is the Time Complexity of this code ?
+Answer 2   :-> The Time Complexity of the code is O(N^2). Reason -> ("I'm using a "Nested FOR Loop" to iterate
+                                                                        over all possible paths from each airport
+                                                                        to final airport");
+
+Question 3 :-> What is the Space Complexity of this code ?
+Answer 3   :-> The Space Complexity of the code is O(N). Reason -> ("I'm using an array of size N to store the
+                                                                        minimum number of planes required 
+                                                                        for reaching final airport");
+
+Ouestion 4 :-> Why i inititalize variable planesRequired array with Number.MAX_SAFE_INTEGER ?
+Answer 4   :-> The Reason is that i want to store the minimum number of planes required to reach each airport.
+               so by inititalizing it with a very large number, I'm sure that any other value will be smaller
+               than this, and I can update the minimum number of planes required for each airport as I iterate
+               over the array.
+
+And in Else Case if we didn't able to reach last airport then we directly return -1 ,  by,
+checking if the value of planesRequired[N-1] is still Number.MAX_SAFE_INTEGER after the
+iteration is completed.
+
+
+
+            Code by  :-> Arpit Mishra.
+            
+            Code For :-> StarAppsStudio.
+
+************************************** Thankyou For Your Valuable Time *****************************************
